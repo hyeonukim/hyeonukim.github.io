@@ -1,28 +1,29 @@
 import {
     mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
+    unity,
+    unreal,
+    game_dev,
+    data_sci,
+    sfu,
+    hnt,
     git,
+    github,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    csharp,
+    unreal_nobg,
+    unity_nobg,
+    python,
+    cpp,
+    c,
+    latex,
+    matlab,
+    react,
+    r,
+    linux,
     carrent,
     jobit,
-    tripguide,
-    threejs,
+    usan,
+    zombie,
   } from "../assets";
   
   export const navLinks = [
@@ -35,231 +36,145 @@ import {
       title: "Work",
     },
     {
-      id: "contact",
-      title: "Contact",
+      id: "project",
+      title: "Projects",
     },
   ];
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Game Developer",
+      icon: game_dev,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Unity",
+      icon: unity,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Unreal Engine",
+      icon: unreal,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Data Science",
+      icon: data_sci,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "unreal",
+      icon: unreal_nobg,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "unity",
+      icon: unity_nobg,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "python",
+      icon: python,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "cpp",
+      icon: cpp,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "csharp",
+      icon: csharp,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "c",
+      icon: c,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "github",
+      icon: github,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "latex",
+      icon: latex,
+    },
+    {
+      name: "matlab",
+      icon: matlab,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Research Assistant",
+      company_name: "Supervision under Dr.Stephen Makonin",
+      icon: sfu,
+      iconBg: "#b02c3c",
+      date: "July 2022 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked on Electric Deductive Billing case with BC Hydro under Dr.Stephen Makonin",
+        "Presented results to Tap&Go Steering Committee to work with BC Hydro to get error calculation",
+        "Created and Used Generative Adversarial Network(GAN) Model to construct missing time series data and analyze",
+        "Used Dynamic Time Warping(DTW) Algorithm to create missing time series data and analyze",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Game Developer",
+      company_name: "Hammer & Tong",
+      icon: hnt,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing serializable, in-editor configurable scripts for NPC behavior, animations and conditional cutscene playing",
+        "Collaborating with an inter-disciplinary team of Master of Digital Media students and Hammer&Tong Artists/Writers to create a Narrative Unity game in C#",
+        "Managing GitLab repository for collaborative work",
+        "Writing technical documentation for the entire code base, managing Version Control, and Pipeline workflow",
       ],
     },
   ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
+   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Usan",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A third person souls like game built with C++/Blueprint in Unreal Engine 5.",
       tags: [
         {
-          name: "react",
+          name: "UE5",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "C++/Blueprint",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Niagara Effects",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: usan,
+      source_code_link: "https://github.com/hyeonukim/Usan",
     },
     {
-      name: "Job IT",
+      name: "Zombie Shooter",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A top-down multiplayer shooter game built with C# in Unity where player must shoot different types and waves of zombies",
       tags: [
         {
-          name: "react",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "C sharp",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Object Oriented Programming",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: zombie,
+      source_code_link: "https://github.com/hyeonukim/Zombie",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
