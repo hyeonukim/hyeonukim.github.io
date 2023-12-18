@@ -42,6 +42,7 @@ import tripguide from "./tripguide.png";
 
 import usan from "./usan.jpg"
 import zombie from "./zombie.jpg"
+import turret from "./tripguide.png"
 
 export {
   logo,
@@ -83,4 +84,5 @@ export {
   tripguide,
   usan,
   zombie,
+  turret,
 };

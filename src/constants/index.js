@@ -24,6 +24,7 @@ import {
     jobit,
     usan,
     zombie,
+    turret,
   } from "../assets";
   
   export const navLinks = [
@@ -174,6 +175,27 @@ import {
       ],
       image: zombie,
       source_code_link: "https://github.com/hyeonukim/Zombie",
+    },
+    {
+      name: "Tower Defence",
+      description:
+        "A tower defence game where player has to eliminate wave of enemies in time with limited income, and each buy with randomness to make the players have different experiences",
+        tags: [
+          {
+            name: "Unity",
+            color: "blue-text-gradient",
+          },
+          {
+            name: "C sharp",
+            color: "green-text-gradient",
+          },
+          {
+            name: "Object Oriented Programming",
+            color: "pink-text-gradient",
+          },
+        ],
+        image: turret,
+        source_code_link: "https://github.com/hyeonukim/Zombie",
     },
   ];
   
