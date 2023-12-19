@@ -9,9 +9,9 @@ const Earth = ({isMobile}) => {
 
   return (
     <primitive 
-      object={earth.scene} 
+      object={isMobile? null:earth.scene} 
       scale={1.5} 
-      position-y={isMobile? -1:-1.25}
+      position-y={-1}
       rotation-y={0} />
   );
 };
