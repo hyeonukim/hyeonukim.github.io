@@ -154,6 +154,7 @@ import {
       ],
       image: usan,
       source_code_link: "https://github.com/hyeonukim/Usan",
+      video_code_link: "https://www.youtube.com/"
     },
     {
       name: "Zombie Shooter",

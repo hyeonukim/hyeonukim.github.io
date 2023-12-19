@@ -20,6 +20,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import youtube from "./youtube.png"
 
 import csharp from "./tech/csharp.png";
 import unreal_nobg from "./tech/unreal.png"
@@ -85,4 +86,5 @@ export {
   usan,
   zombie,
   turret,
+  youtube,
 };
