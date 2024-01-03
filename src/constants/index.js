@@ -25,6 +25,7 @@ import {
     usan,
     zombie,
     turret,
+    dodgeball,
   } from "../assets";
   
   export const navLinks = [
@@ -154,6 +155,24 @@ import {
       ],
       image: usan,
       source_code_link: "https://github.com/hyeonukim/Usan",
+      video_code_link: "https://www.youtube.com/"
+    },
+    {
+      name: "Dodgeball",
+      description:
+        "A top down game where A player has to dodge around the enemies' projectiles attempting to finish the maze. The main purpose for this project was to test/learn how to use UE5 with C++ classes",
+      tags: [
+        {
+          name: "UE5",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C++/Blueprint",
+          color: "green-text-gradient",
+        },
+      ],
+      image: dodgeball,
+      source_code_link: "https://github.com/hyeonukim/Dodgeball",
       video_code_link: "https://www.youtube.com/"
     },
     {
