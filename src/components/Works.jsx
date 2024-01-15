@@ -15,6 +15,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  source_img,
   source_code_link,
   video_code_link,
 }) => {
@@ -41,7 +42,7 @@ const ProjectCard = ({
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={github}
+                src={source_img}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />

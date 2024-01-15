@@ -46,6 +46,7 @@ import zombie from "./zombie.jpg"
 import turret from "./tripguide.png"
 import dodgeball from "./dodgeball.png"
 import undead from "./undead.png"
+import tapestry from "./tapestry.webp"
 
 export {
   logo,
@@ -91,4 +92,5 @@ export {
   youtube,
   dodgeball,
   undead,
+  tapestry,
 };

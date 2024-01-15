@@ -27,6 +27,8 @@ import {
     turret,
     dodgeball,
     undead,
+    tapestry,
+    youtube,
   } from "../assets";
   
   export const navLinks = [
@@ -137,6 +139,29 @@ import {
    
   const projects = [
     {
+      name: "Tapestry (Hammer&Tong)",
+      description:
+        "The project tests the mechanics of a narrative-driven game where players unravel the story of the game by interacting with the world and the characters in it",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C sharp",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Hammer&Tong",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tapestry,
+      source_img:  youtube,
+      source_code_link: "https://www.youtube.com/watch?v=U6YLE0IdX7A",
+      video_code_link: "https://www.youtube.com/"
+    },
+    {
       name: "Undead Suvivor",
       description:
         "A rogue like game built with C# Unity where player has to survive 5 minutes of unlimited waves of undeads in Endless environments",
@@ -155,6 +180,7 @@ import {
         },
       ],
       image: undead,
+      source_img: github,
       source_code_link: "https://github.com/hyeonukim/UndeadSurvivor",
       video_code_link: "https://www.youtube.com/"
     },
@@ -177,6 +203,7 @@ import {
         },
       ],
       image: usan,
+      source_img: github,
       source_code_link: "https://github.com/hyeonukim/Usan",
       video_code_link: "https://www.youtube.com/"
     },
@@ -195,6 +222,7 @@ import {
         },
       ],
       image: dodgeball,
+      source_img: github,
       source_code_link: "https://github.com/hyeonukim/Dodgeball",
       video_code_link: "https://www.youtube.com/"
     },
@@ -217,6 +245,7 @@ import {
         },
       ],
       image: zombie,
+      source_img: github,
       source_code_link: "https://github.com/hyeonukim/Zombie",
     },
     {
@@ -238,6 +267,7 @@ import {
           },
         ],
         image: turret,
+        source_img: github,
         source_code_link: "https://github.com/hyeonukim/TowerDefence",
     },
   ];
