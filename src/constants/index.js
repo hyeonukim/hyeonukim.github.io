@@ -26,6 +26,7 @@ import {
     zombie,
     turret,
     dodgeball,
+    undead,
   } from "../assets";
   
   export const navLinks = [
@@ -135,6 +136,28 @@ import {
   ];
    
   const projects = [
+    {
+      name: "Undead Suvivor",
+      description:
+        "A rogue like game built with C# Unity where player has to survive 5 minutes of unlimited waves of undeads in Endless environments",
+      tags: [
+        {
+          name: "Unity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C sharp",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Object Oriented Programming",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: undead,
+      source_code_link: "https://github.com/hyeonukim/UndeadSurvivor",
+      video_code_link: "https://www.youtube.com/"
+    },
     {
       name: "Usan",
       description:

@@ -45,6 +45,7 @@ import usan from "./usan.jpg"
 import zombie from "./zombie.jpg"
 import turret from "./tripguide.png"
 import dodgeball from "./dodgeball.png"
+import undead from "./undead.png"
 
 export {
   logo,
@@ -89,4 +90,5 @@ export {
   turret,
   youtube,
   dodgeball,
+  undead,
 };
